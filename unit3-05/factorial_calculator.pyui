@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "81C8E2EE-2700-409E-9086-5E5076CE1E5A",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter an integer:",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 46}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "input_textfield",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "99F5A1D1-A863-44A3-88E5-999675CC9AC7",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{214, 46}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "E00D7CE5-1969-4A7E-940E-66D8764B3822",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 86}, {288, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{78, 103}, {150, 32}}",
+          "uuid" : "6A81F2B3-2527-4B4D-A1BA-FF89CAD9A815",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {305, 237}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
